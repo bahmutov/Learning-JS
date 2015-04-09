@@ -4,8 +4,7 @@ var test = require('unit.js');
 
 var library = require('../library_fnc');
 
-
-describe('mocha+assert API description', function() {
+describe('mocha+assert type checking', function() {
 
 var library = function(testype, testval) {
   console.log(typeof testval);
