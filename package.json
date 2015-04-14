@@ -1,0 +1,26 @@
+{
+  "name": "Learning-JS",
+  "version": "1.0.0",
+  "description": "Some intro programs written while learning Javascript",
+  "main": "library_fnc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/testlibrary.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/Learning-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/Learning-JS/issues"
+  },
+  "homepage": "https://github.com/bahmutov/Learning-JS",
+  "devDependencies": {
+    "mocha": "2.2.4",
+    "unit.js": "1.1.3"
+  }
+}
